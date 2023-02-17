@@ -1,0 +1,350 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    background-color: #454f6f;
+    color: white;
+    border: 1px solid #454f6f;
+    height: 60px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /* margin-bottom: 156px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.container a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+
+.container a:hover {
+    background-color: #6495ED;
+}
+
+.container h3 {
+    left: 0px;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.container h3:hover {
+    color: yellow;
+}
+
+.container2 {
+    background-color: #e6834c;
+    border: 1px solid #e6834c;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+.container2 .image img {
+    width: 400px;
+    height: 350px;
+    border-radius: 100%;
+}
+
+.container2 .text {
+    align-items: center;
+}
+
+.container2 .up {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+#below {
+    text-align: center;
+    color: white;
+    font-weight: normal;
+}
+
+
+.about {
+    border-style: hidden;
+    margin: auto;
+    padding: 50px;
+    height: 200px;
+    background-color: #E6E6FA;
+    border-radius: 1px;
+    margin: 42px 33px;
+
+}
+
+.about p {
+    line-height: 30px;
+
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+.food {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 10px 10px;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 15px;
+
+}
+
+.content {
+    width: 525px;
+    padding: 10px;
+
+}
+
+
+.content h2 {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+
+.content p {
+    padding-top: 10px;
+    line-height: 30px;
+}
+
+.contact p {
+    text-align: center;
+
+}
+
+.footer1 {
+    background-color: #454f6f;
+    border: 1px solid #454f6f;
+    height: 66px;
+    margin-top: 15px;
+}
+
+.footer1 ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    padding-right: 40px;
+
+}
+
+
+
+.footer2 {
+    background-color: #e6834c;
+    text-align: center;
+    font-weight: bold;
+    height: 40px;
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 0px;
+}
+
+.food_photo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px 0px;
+    margin: 20px 0;
+}
+
+.food_photo .sawir img {
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.container-footer {
+    background-color: #454f6f;
+    color: white;
+    border: 1px solid #454f6f;
+    height: 60px;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.container-footer ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+.container-footer a {
+    text-decoration: none;
+    color: white;
+    padding: 0px 30px;
+}
+
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    width: 100%;
+    background-color: #e6834c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.form form {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.form {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 100%;
+
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+.soxarir {
+    text-align: center;
+    color: f2f2f2;
+}
+
+
+
+/* Small devices (landscape phones, 576px and above till next break point) */
+@media (max-width: 576px) {
+    .container {
+        flex-direction: column;
+        padding: 10px 0px
+    }
+
+    .container2 {
+        flex-direction: column;
+        padding-top: 25%;
+        gap: 40px;
+
+    }
+
+    .container2 .text p {
+        text-align: center;
+    }
+
+    .about {
+        height: 100%;
+    }
+
+    .container-footer {
+        flex-direction: column;
+        padding: 10px 0px;
+        width: 100%;
+    }
+
+    .food_photo {
+        flex-direction: column;
+    }
+
+    .food_photo .sawir {
+        margin-left: 24px;
+        margin-right: 24px;
+
+    }
+}
+
+
+/* Medium devices (tablets, 768px and above till next break point) */
+@media (min-width: 768px) {
+    .about {
+        height: 100%;
+    }
+
+    .food {
+        flex-direction: row;
+    }
+}
+
+/* // Large devices (desktops, 992px and above till next break point) */
+@media (min-width: 992px) {
+    .about {
+        height: 100%;
+    }
+}
